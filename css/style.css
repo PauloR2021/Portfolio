@@ -1,0 +1,211 @@
+/* Reset da Página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*  Trabalhando na Estrutura da Página */
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(45deg,rgba(82, 69, 69, 0.527),rgb(121, 241, 121));
+ 
+}
+
+header{
+    height: 120px;
+    padding: 20px 0;
+}
+
+/* Inicializando um Logo */
+.icone_logo{
+    
+    width: 50%;
+    left: 10%;
+
+}
+
+#imagem_icone{
+
+    width: 10%;
+}
+
+/* Trabalhando no Menu dos Links*/
+.menu{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/* Trabalhando na Seção do Link Sobre Mim*/
+
+section.sobre-mim{
+    height:calc(100% - 20px) ;
+    position: relative;
+
+}
+.sobre{
+    font-family:Tahoma;
+    font-size: medium;
+    color: black;
+    text-align: center;
+}
+
+#lista{
+    list-style: none;
+    text-align: center;
+
+}
+
+/* Trabalhando na Seção do Link Formação Academica*/
+
+section.formacao_academica{
+    height:calc(100% - 20px) ;
+    position: relative;
+
+}
+.formacao{
+    font-family:Tahoma;
+    font-size: medium;
+    color: blue;
+    text-align: center;
+}
+
+/* Texto do cabeçalho das Tabelas*/
+#texto_for{
+    margin: auto;
+    font-family: Times New Roman;
+    font-size: 30px;
+    color: black;
+}
+.tabela{
+    
+    list-style: none;
+    margin: auto;
+    color: black;
+
+}
+#info{
+    width: 30%;
+    font-family: verdana ,;
+    font-size: 24px;
+    text-align: center;
+
+    color: black;
+}
+
+#for{
+    
+    font-family: verdana ,;
+    font-size: 24px;
+    text-align: center;
+
+    color: black;
+
+}
+
+/* Trabalhando na Seção do Link Portfolio*/
+
+section.portfolio_academico{
+    height:calc(100% - 20px) ;
+    position: relative;
+
+}
+.portf{
+    font-family:Tahoma;
+    font-size: medium;
+    color: blue;
+    text-align: center;
+}
+
+/* Trabalhando na Seção do Link Contato*/
+
+section.contato_academico{
+    height:calc(100% - 20px) ;
+    position: relative;
+
+}
+.cont{
+    font-family:Tahoma;
+    font-size: medium;
+    color: blue;
+    text-align: center;
+}
+
+#fieldset{
+    font-family:  'Trebuchet MS';
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+    height: 400px;
+    
+}
+#text_mensagem{
+    position: absolute;
+    left: 450px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    
+}
+#submit{
+
+    position:absolute; 
+    top:84%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    
+
+}
+.portfolio_academico{
+    background-image: linear-gradient(45deg,rgba(82, 69, 69, 0.527),rgb(121, 241, 121));
+    color: white;
+}
+
+.lista{
+    text-align: center;
+    
+}
+
+.icones{
+
+    height: 50px;
+    width: 50px;
+    text-align: center;
+
+
+}
+
+#link{
+    color: rgb(8, 6, 6);
+    cursor:pointer;
+    
+
+}
+
+
+
+
+
